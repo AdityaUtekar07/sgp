@@ -13,7 +13,7 @@ const session = require("express-session");
 const methodOverride = require("method-override");
 app.use(express.static(publicDirectory));
 app.set("view engine", "ejs");
-
+const port = process.env.PORT || 4000;
 initializePassport(
   passport,
   (email) => users.find((user) => user.email === email),
@@ -27,7 +27,7 @@ app.use(flash());
 app.use(
   session({
     secret: process.env.SECRET_KEY,
-    resave: false, // We wont resave the session variable if nothing is changed
+    resave: false,
     saveUninitialized: false,
   })
 );
@@ -112,4 +112,6 @@ function checkNotAuthenticated(req, res, next) {
   next();
 }
 
-app.listen(5000);
+app.listen(port, (req, res) => {
+  console.log(`server is running on ${port}`);
+});

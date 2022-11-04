@@ -317,3 +317,18 @@ input {
 .logout-btn:hover {
   color: red !important;
 }
+.company-logoes {
+  max-width: 10vw;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.brand-container {
+  width: 100vw;
+}
+.brand-container-inner-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
