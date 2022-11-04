@@ -36,5 +36,81 @@
       "price": "100",
       "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/808392bb-4db3-42ed-9bc3-68eaf5252366/kd15-ep-basketball-shoes-9K6BpD.png"
     }
+  ],
+  "tshirts": [
+    {
+      "id": 1,
+      "name": "Mens Grey ",
+      "price": "100",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/w/y/h/m-dv2320-063-nike-original-imaghj37ha3vbhtk.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "name": "Dri-FIT Solid Men",
+      "price": "100",
+      "image": "https://rukminim1.flixcart.com/image/832/832/kfoapow0-0/t-shirt/n/j/g/m-718834-010black-nike-original-imafw2jvx5ugbp57.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "name": "Orange T-Shirt",
+      "price": "100",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/x/k/0/m-dr0998-893-nike-original-imaggb4r3krmgzc6.jpeg?q=70"
+    },
+    {
+      "id": 4,
+      "name": "Black T-Shirt",
+      "price": "100",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/c/7/o/m-dv2320-010-nike-original-imaghgyzvhcebdhy.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "name": "Black T-Shirt",
+      "price": "100",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/p/o/d/m-ar4992-013-nike-original-imaggf5bzgeggfxt.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "name": " White T-Shirt",
+      "price": "100",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/6/h/v/m-dv2314-100-nike-original-imaghg34jmucgarm.jpeg?q=70"
+    }
+  ],
+  "watches": [
+    {
+      "id": 1,
+      "name": "Red Watch ",
+      "price": "100",
+      "image": "https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gab/ga-b2100bnr-1a/assets/GA-B2100BNR-1A.png.transform/main-visual-pc/image.png"
+    },
+    {
+      "id": 2,
+      "name": "Black Watch",
+      "price": "100",
+      "image": "https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202102_795391069/image.casiocoreimg.jpeg/1661829823811/thumb.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Brown Watch",
+      "price": "100",
+      "image": "https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202102_1293404590/image.casiocoreimg.jpeg/1661829823829/thumb.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Green Watch",
+      "price": "100",
+      "image": "https://gshock.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/gae/gae-2100we-3a/assets/GAE-2100WE-3A.png.transform/product-panel/image.png"
+    },
+    {
+      "id": 5,
+      "name": "Silver Watch",
+      "price": "100",
+      "image": "https://gshock.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s110-1a/assets/GM-S110-1A.png.transform/product-panel/image.png"
+    },
+    {
+      "id": 6,
+      "name": " Rainbow Watch",
+      "price": "100",
+      "image": "https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_copy__1790110685/content_panel/image.casiocoreimg.png/1661829824159/mtg-b2000xmg-1a.png"
+    }
   ]
 }

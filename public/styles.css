@@ -160,6 +160,7 @@ button:hover {
   width: 100%;
   text-align: center;
   padding: 50px;
+  margin: 15px 0;
 }
 
 .featured-product {
@@ -291,10 +292,16 @@ input {
   margin-left: 50px;
 }
 #placeOrderBtn {
+  display: flex;
   background-color: coral;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 5px;
   margin-left: 20px;
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  align-items: center;
+  font-size: small;
 }
 #placeOrderBtn:hover {
   background-color: rgba(255, 127, 80, 0);
@@ -303,4 +310,10 @@ input {
 .btn-success {
   position: absolute;
   bottom: 0;
+}
+.user-name {
+  margin: 5px;
+}
+.logout-btn:hover {
+  color: red !important;
 }
