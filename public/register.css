@@ -1,0 +1,29 @@
+* {
+  user-select: none;
+}
+body {
+  background-image: url("./shoes/regImg.jpg");
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  height: 100%;
+  margin-top: 7vh;
+}
+.inner-container,
+#form3Example2,
+#form3Example3,
+#form3Example4 {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}

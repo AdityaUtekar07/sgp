@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-  <title>Shoes Website</title>
+  <title>TheShoeCrew</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
@@ -52,9 +52,11 @@
           </li>
           
           <li class="nav-item">
-            
+           <div class="cart-icon">
+             
             <i class="fa-solid fa-bag-shopping " id="cartIcon"></i>
             <span class="cartItemCount">0</span>
+           </div>
           </li>
           
           <div class="cartItemsContainer displayCartWindow ">
@@ -91,10 +93,12 @@
             <div class="slider-img">
               <img src="../white.jpg" alt="">
             </div>
-            <h5>NEW ARRIVALS</h5>
+            <div class="swiper-desc">
+              <h5>NEW ARRIVALS</h5>
             <h1><span>Best Price</span></h1>
             <p>TheShoeCrew offers shoes at Best Price </p>
             <a href="#mens-shoes-section"><button >Shop Now</button></a>
+            </div>
             
           </div>
         </div>
@@ -105,10 +109,12 @@
             <div class="slider-img">
               <img src="../sneak.jpg" alt="">
             </div>
-            <h5 style="color: white ;">NEW ARRIVALS</h5>
+            <div class="swiper-desc">
+              <h5 style="color: white ;">NEW ARRIVALS</h5>
             <h1><span>Best Quality</span> </h1>
             <p style="color:white ;">TheShoeCrew 0ffers you the best quality product<br>on walking and excercises. </p>
             <a href="#mens-shoes-section"><button >Shop Now</button></a>
+            </div>
           </div>
         </div>
       </div>
@@ -118,21 +124,20 @@
             <div class="slider-img">
               <img src="../grey.jpg" alt="">
             </div>
+            <div class="swiper-desc">
             <h5>NEW ARRIVALS</h5>
             <h1><span>Fast Delivery</span> </h1>
             <p>TheShoeCrew delivers your product within no time<br></p>
             <a href="#mens-shoes-section"><button >Shop Now</button></a>
           </div>
+          </div>
         </div>
       </div>
-      ...
+   
     </div>
 
-    <div class="swiper-pagination"></div>
 
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
+    
 
   </div>
 
@@ -141,7 +146,8 @@
   <div class="brand-container">
     <div class="row brand-container-inner-div">
       <img src="https://www.freepnglogos.com/uploads/adidas-logo-png-black-0.png" class="image-fluid col-lg-2  col-md-4 col-6 company-logoes" >
-      <img src="https://freepngimg.com/thumb/nike_logo/6-2-nike-logo-free-png-image-thumb.png" class="image-fluid col-lg-2  col-md-4 col-6">
+      <img src="https://freepngimg.com/thumb/nike_logo/6-2-nike-logo-free-png-image-thumb.png" class="image-fluid col-lg-2  col-md-4 col-6 company-logoes" >
+      
       <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/SKECHERS_logo.png" class="image-fluid col-lg-2  col-md-4 col-6 company-logoes">
       <img src="https://imagescdn.louisphilippe.com/img/app/brands/lp/LP-logo-Img2.png" class="image-fluid col-lg-2  col-md-4 col-6 company-logoes">
       <img src="https://www.adityabirla.com/Upload/Images/thumbnail/van-heusen-brands.png" class="image-fluid col-lg-2  col-md-4 col-6 company-logoes">
@@ -175,9 +181,10 @@
     </div>
   </div>
 
+  <!-- shoes -->
 
-  <h1 class="category-heading" ><span>Men's</span> Shoes</h1>
-    <!-- shoes -->
+    <h1 class="category-heading" ><span>Men's</span> Shoes</h1>
+  
   <div class="main-Featured-Product row  " id="mens-shoes-section">
     <% items.shoes.forEach(function(item){%>
     <div class="featured-product" data-item-id="<%=item.id%>">
@@ -196,6 +203,7 @@
     </div>
     
   </div>
+  
   <!-- shoes -->
   <h1 class="category-heading" ><span>Men's</span> T-shirt</h1>
   <!-- t-shirts -->
@@ -216,7 +224,7 @@
      
     </div>
     
-  </div>
+ 
   <!-- t-shirts -->
   <h1 class="category-heading" ><span>Men's</span> Watches</h1>
   <!-- watches -->
@@ -237,7 +245,7 @@
      
     </div>
     
-  </div>
+ 
   <!-- watches -->
 
   
@@ -255,7 +263,7 @@
       <button type="submit">Send</button>
 
   </div>
-  </div>
+ 
   
   <footer class="text-center text-lg-start bg-light text-muted ">
    

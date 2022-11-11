@@ -109,17 +109,7 @@ button:hover {
 .navbar button:hover {
   background-color: transparent;
 }
-.swiper-button-prev,
-.swiper-button-next {
-  color: black;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  background-color: rgba(99, 99, 99, 0.241);
-}
+
 .category-main-container {
   width: 33%;
   position: relative;
@@ -331,4 +321,70 @@ input {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  #mainLogo {
+    margin: auto;
+  }
+  .cart-icon {
+    position: absolute;
+  }
+  .cartItemCount {
+    font-size: 10px;
+  }
+  .user-name {
+    padding-left: 50px;
+  }
+  .logout-btn {
+    font-size: 0.5rem;
+    margin-left: 20px;
+  }
+  .swiper-wrapper {
+    height: 80vh;
+    margin-bottom: -10vh;
+  }
+  .swiper-desc {
+    position: absolute;
+    top: 25vw;
+  }
+  i {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 0.7rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+  }
+  .swiper-desc p {
+    font-size: 0.6rem;
+  }
+  .brand-container img {
+    height: auto;
+    object-fit: cover;
+  }
+  .brand-container-inner-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+  }
+  .category-heading {
+    padding: 5vh;
+  }
+  .main-Featured-Product {
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
 }
